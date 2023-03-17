@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+.container{
+    max-width: 1300px;
+    padding: 10px;
+    height: 100vh;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+    color: chocolate;
+    margin: 0 0 20px 0 ;
+}
+.zona_wraper{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: center;
+    justify-items: center;
+}
+.zona{
+    width: 90%;
+    height: fit-content;
+    border: 2px solid red;
+}
+.box{
+    width: 100%;
+    height: 70px;
+}
+.white{
+    background: white;
+}
+.black{
+    background-color: #000;
+}
+.red{
+    background-color: red;
+}
+.yellwou{
+    background-color: yellow;
+}
